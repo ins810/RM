@@ -1,0 +1,33 @@
+.menu{
+  display: flex;
+  justify-content: flex-end;
+  background-color: #001a33;
+}
+
+
+
+ul{
+  display: flex;
+}
+li{
+  padding: 5px 10px;
+  width: 105px;
+  height: 17px;
+  border-bottom: 3px solid white;
+  text-align: center;
+  list-style-type: none;
+  margin-top: 2px;
+  }
+
+li:hover{
+  border-bottom: 3px solid black;
+}
+
+
+
+
+.menu--link{
+  text-decoration: none;
+  color: white;
+}
+
